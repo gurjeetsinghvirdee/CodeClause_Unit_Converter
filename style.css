@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: orangered;
+    background-color: cornflowerblue;
     padding: 1rem;
     border: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
@@ -46,7 +46,7 @@ select {
 button {
     padding: .5rem 1rem;
     font-size: 1rem;
-    background-color: rgb(131, 199, 242);
+    background-color: navy;
     color: white;
     border-radius: 5px;
     border: none;
@@ -54,5 +54,5 @@ button {
 }
 
 button:hover {
-    background-color: rgb(66, 190, 239);
+    background-color: rgb(0, 0, 255);
 }
