@@ -8,7 +8,30 @@
     <title>Unit Converter</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="input_container">
+            <input type="number" id="inputValue">
+            <select id="inputUnit">
+                <option value="ounces">Ounces</option>
+                <option value="pounds">Pounds</option>
+                <option value="grams">Grams</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="milligrams">Milligrams</option>
+            </select>
+        </div>
+        <p>to</p>
+        <div class="input_container">
+            <input type="number" id="outputValue" disabled>
+            <select id="outputUnit">
+                <option value="ounces">Ounces</option>
+                <option value="pounds">Pounds</option>
+                <option value="grams">Grams</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="milligrams">Milligrams</option>
+            </select>
+        </div>
+        <button id="convertBtn"></button>
+    </div>
 </body>
 <script src="./main.js"></script>
 </html>
